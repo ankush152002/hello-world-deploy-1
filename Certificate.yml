@@ -1,0 +1,12 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: hello-world-app1-cert
+spec:
+  secretName: hello-world-app1-tls
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: hello-world-appl.swa-raj.online
+  dnsNames:
+    - hello-world-appl.swa-raj.online
