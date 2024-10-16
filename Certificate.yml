@@ -5,7 +5,7 @@ metadata:
 spec:
   secretName: hello-world-app1-tls
   issuerRef:
-    name: letsencrypt-prod
+    name: letsencrypt-prod-app1
     kind: ClusterIssuer
   commonName: hello-world-app1.swa-raj.online
   dnsNames:
