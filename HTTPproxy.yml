@@ -6,8 +6,9 @@ spec:
   virtualhost:
     fqdn: hello-world-app1.swa-raj.online
     tls: 
-      secretname: hello-world-app1-tls
+      secretName: hello-world-app1-tls
   routes:
     - services:
         - name: hello-world-app1
           port: 80
+
