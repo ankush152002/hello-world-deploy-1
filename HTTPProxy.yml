@@ -4,7 +4,7 @@ metadata:
   name: hello-world-app1
 spec:
   virtualhost:
-    fqdn: hello-world-app1.swa.raj.online
+    fqdn: hello-world-app1.swa-raj.online
   routes:
     - services:
         - name: hello-world-app1
